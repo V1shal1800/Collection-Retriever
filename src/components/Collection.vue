@@ -3,6 +3,9 @@
     <h3>
       {{ collection.name }}
     </h3>
+    <h3>
+      Test Value
+    </h3>
     <p>created At: {{ new Date(collection.createdAt).toLocaleString() }}</p>
   </div>
 </template>
